@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Rafael Paiva",
+    "type": "PJ",
+    "email": "r.paivabr@gmail.com",
+    "date_create": "27-10-2018",
+    "group": "R",
+    "status": "true",
+    "telefones": [
+      {
+        "ddd": "19",
+        "number": "997646554"
+      },
+      {
+        "ddd": "19",
+        "number": "36016233"
+      }
+    ],
+    "cnpj": "30867789000143",
+    "ie": "111111111",
+    "id": "1"
+  }
+]
