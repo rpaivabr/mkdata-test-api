@@ -1,5 +1,6 @@
 import * as restify from 'restify'
 import * as fs from 'fs'
+import * as corsMiddleware from 'restify-cors-middleware'
 import { environment } from '../common/environment'
 import { Router } from '../common/router';
 import { tokenParser } from '../security/token.parser'
@@ -23,6 +24,17 @@ export class Server {
 
                 this.application = restify.createServer(options)
                 
+                const corsOptions: corsMiddleware.Options = {
+                    preflightMaxAge: 10,
+                    origins: ['*'],
+                    allowHeaders: ['authorization'],
+                    exposeHeaders: ['x-custom-header']
+                }
+                const cors: corsMiddleware.CorsMiddleware = corsMiddleware(corsOptions)
+
+                this.application.pre(cors.preflight)
+
+                this.application.use(cors.actual)
                 this.application.use(restify.plugins.queryParser())
                 this.application.use(restify.plugins.bodyParser())
                 this.application.use(tokenParser)
