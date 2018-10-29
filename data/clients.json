@@ -1,11 +1,10 @@
 [
   {
-    "name": "Rafael Paiva",
-    "type": "PJ",
-    "email": "r.paivabr@gmail.com",
-    "date_create": "27-10-2018",
-    "group": "R",
+    "name": "Kerneels Sanaa",
+    "email": "kerneels@gmail.com",
+    "type": "PF",
     "status": "true",
+    "group": "H",
     "telefones": [
       {
         "ddd": "19",
@@ -16,8 +15,54 @@
         "number": "36016233"
       }
     ],
-    "cnpj": "30867789000143",
-    "ie": "111111111",
+    "date_create": "2018-10-29T11:37:41.720Z",
+    "cpf": "31391846893",
+    "rg": "402114346",
     "id": "1"
+  },
+  {
+    "name": "Katalin Jolyon",
+    "email": "katalin@gmail.com",
+    "type": "PF",
+    "status": "true",
+    "group": "B",
+    "telefones": [],
+    "date_create": "2018-10-29T11:38:17.432Z",
+    "cpf": "80156137526",
+    "rg": "123456789",
+    "id": "2"
+  },
+  {
+    "name": "Nanook Ltda.",
+    "email": "hr@nanook.com",
+    "type": "PJ",
+    "status": "false",
+    "group": "C",
+    "telefones": [
+      {
+        "ddd": "19",
+        "number": "999999999"
+      },
+      {
+        "ddd": "19",
+        "number": "36666666"
+      }
+    ],
+    "date_create": "2018-10-29T11:38:18.831Z",
+    "cnpj": "78433012000105",
+    "ie": "123456789",
+    "id": "3"
+  },
+  {
+    "name": "Faas Aurelia Co.",
+    "email": "ceo@faasaurelia.com",
+    "type": "PJ",
+    "status": "true",
+    "group": "R",
+    "telefones": [],
+    "date_create": "2018-10-29T11:38:20.024Z",
+    "cnpj": "87554805000165",
+    "ie": "123456789",
+    "id": "4"
   }
 ]

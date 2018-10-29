@@ -4,6 +4,8 @@
   "description": "Api de cadastro de clientes",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && nodemon ./dist/main.js",
+    "build": "tsc",
     "test": "ts-node jest.startup.ts"
   },
   "keywords": [],
